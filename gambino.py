@@ -14,7 +14,7 @@ title = 1
 song_title = title
 offset_value = 0
 song_found = False
-for i in range(1, 3006):
+for i in range(3006):
     if len(track_ids) == 100:
         sp.playlist_add_items(playlist_id='74VT8PisvlVMJu8rJynftd', items=track_ids)
         track_ids = []
